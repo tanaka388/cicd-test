@@ -1,6 +1,6 @@
 name: Hello workflow
 
-on: Hello workflow Event
+on: push
 
 jobs:
   hello:
