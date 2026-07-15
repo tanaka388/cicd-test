@@ -4,8 +4,7 @@ on: push
 
 jobs:
   hello:
-    stale:
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: echo
