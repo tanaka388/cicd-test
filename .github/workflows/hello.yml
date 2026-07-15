@@ -4,6 +4,10 @@ on: push
 
 jobs:
   hello:
+    stale:
+      runs-on: ubuntu-latest
+
     steps:
       - name: echo
         run: echo "Hello, GitHub Actions"
+
